@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    background-color: rgb(84, 33, 79);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.header h1{
+    font-size: 1.5em;
+    margin-left: 30px;
+    color: white;
+}
+.header a{
+    color: white;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.web-name{
+    width: 100%;
+    background: url("backgrd.jpg") center  ;
+    
+    background-size: center;
+    padding-bottom: 50px;
+}
+.web-name h1{
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 60px;
+    color: white;
+}
+.cardsbody{
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.items{
+    background-color: rgb(72, 7, 77);
+    flex-basis: 30%;
+    margin: 10px 0px;
+    text-align: center;
+    box-shadow: 0 0 10px 3px white;
+    padding: 20px,0px;
+}
+.items p{
+    
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.items :hover {
+    color: rgb(242, 3, 3);
+}
+
+button:hover{
+    color: red;
+}
+
+ button{
+    background-color: rgb(233, 233, 240);
+    border-radius: 1px;
+    font-weight: 100px;
+    font-size: 15px;
+    display: flex;
+    margin-left: 280px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width:200px) and (max-width:767px) {
+    .cardsbody{
+        width: 100%;
+        flex-direction: column;
+    }
+}
