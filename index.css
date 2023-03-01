@@ -22,8 +22,7 @@
 }
 .web-name{
     width: 100%;
-    background: url("backgrd.jpg") center  ;
-    
+    background: url("images/backgrd.jpg") center  ;
     background-size: center;
     padding-bottom: 50px;
 }
